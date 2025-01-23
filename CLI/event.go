@@ -13,7 +13,7 @@ type Repo struct {
 type Payload struct {
 	Action       string `json:"action,omitempty"`
 	Created_type string `json:"ref_type,omitempty"`
+	Number       int    `json:"number,omitempty"`
 	Reason       string `json:"reason,omitempty"`
 	Size         int    `json:"distinct_size,omitempty"`
-	Number       int    `json:"number,omitempty"`
 }
