@@ -1,6 +1,6 @@
 # Github-User-Activity
 
-This project fetches data from the GitHub API to output user activity.
+This project fetches data from the GitHub API to output user activity. [Here](https://roadmap.sh/projects/github-user-activity)
 
 ## Features
 
@@ -18,11 +18,7 @@ This project fetches data from the GitHub API to output user activity.
     ```sh
     cd Github-User-Activity/CLI
     ```
-3. Install the dependencies:
-    ```sh
-    go mod tidy
-    ```
-4. Build Binary:
+3. Build Binary:
     ```sh
     go build -o github-activity
     ```
